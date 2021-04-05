@@ -1,0 +1,21 @@
+CREATE PROPERTY GRAPH "customer_360"
+  VERTEX TABLES (
+    customer
+  , account
+  , merchant
+  )
+  EDGE TABLES (
+    account
+      SOURCE KEY(id) REFERENCES account
+      DESTINATION KEY(customer_id) REFERENCES customer
+      LABEL owned_by PROPERTIES (id)
+  , parent_of
+      SOURCE KEY(customer_id_parent) REFERENCES customer
+      DESTINATION KEY(customer_id_child) REFERENCES customer
+  , purchased
+      SOURCE KEY(account_id) REFERENCES account
+      DESTINATION KEY(merchant_id) REFERENCES merchant
+  , transfer
+      SOURCE KEY(account_id_from) REFERENCES account
+      DESTINATION KEY(account_id_to) REFERENCES account
+  )
