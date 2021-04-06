@@ -24,10 +24,10 @@ INSERT INTO account VALUES (212,'xxx-zzz-212',NULL,NULL,NULL);
 COMMIT;
 
 CREATE TABLE customer (
-  id NUMBER NOT NULL,
-  name VARCHAR2(20),
-, age NUMBER,
-, location VARCHAR2(20),
+  id NUMBER NOT NULL
+, name VARCHAR2(20)
+, age NUMBER
+, location VARCHAR2(20)
 , gender VARCHAR2(20)
 , student VARCHAR2(20)
 , CONSTRAINT customer_pk PRIMARY KEY (id)
