@@ -1,4 +1,4 @@
-# Create and Enable a Database User in SQL Developer Web
+# Create and Enable a Graph User
 
 ## Introduction
 

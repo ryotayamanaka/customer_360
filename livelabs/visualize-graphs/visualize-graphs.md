@@ -87,7 +87,7 @@ The graph should now look like
 
 3. Copy and paste the query into the PGQL Graph Query text input box of the GraphViz application. Click Run.
 
-    The result should look as shown below.
+    The result should look as shown below. In the highlight settings, the accounts starting with `xxx-yyy-` are shown in red (= accounts of the bank), while `xxx-zzz-` are shown in orange (= accounts from another bank). 
 
     ![](images/same-day-transfers.jpg)
 

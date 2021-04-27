@@ -238,6 +238,8 @@ WHERE t1.transfer_date < t2.transfer_date
 
 ## Influential Accounts
 
+Let's find which accounts are influential in the network. There are various algorithms to score the importance and centrality of the vertices. We'll use the built-in PageRank algorithm as an example.
+
 Filter customers from the graph. (cf. [Filter Expressions](https://docs.oracle.com/cd/E56133_01/latest/reference/filter.html))
 
 ```py
@@ -349,7 +351,7 @@ graph2.query_pgql("""
 +----------------------+
 ```
 
-List the other accounts in the same conneted component (partition) as John's account.
+List the other accounts in the same connected component (partition) as John's account.
 
 The partition (or component) id is added as a property named `SCC_KOSARAJU` for use in PGQL queries.
 *John's account_no is xxx-yyy-201 as shown in Lab 6.*
@@ -410,9 +412,9 @@ Add reverse edges.
     | 16    | Apple Store | purchased_by | xxx-yyy-203  |
     +---------------------------------------------------+
 
-![Screen Shot 2019-05-03 at 18 19 35](https://user-images.githubusercontent.com/4862919/63683184-eef5af80-c823-11e9-85be-495295d0c2a3.jpg)
+![](https://user-images.githubusercontent.com/4862919/63683184-eef5af80-c823-11e9-85be-495295d0c2a3.jpg)
 
-![Screen Shot 2019-05-07 at 03 09 51](https://user-images.githubusercontent.com/4862919/63683190-f1f0a000-c823-11e9-8e3d-96152f4edf98.jpg)
+![](https://user-images.githubusercontent.com/4862919/63683190-f1f0a000-c823-11e9-8e3d-96152f4edf98.jpg)
 
 We will focus on the account no. a01 (John's account) and run PPR.
 

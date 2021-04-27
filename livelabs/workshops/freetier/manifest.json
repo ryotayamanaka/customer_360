@@ -13,43 +13,28 @@
             "filename": "https://raw.githubusercontent.com/oracle/learning-library/master/common/labs/cloud-login/pre-register-free-tier-account.md"
         },
         {
-            "title": "Lab 1: Create SSH Keys",
-            "description":"Create SSH Keys",
-            "filename":"https://raw.githubusercontent.com/oracle/learning-library/master/common/labs/generate-ssh-key/generate-ssh-keys.md"
-        },
-        {
-            "title": "Lab 2: Provision Autonomous Database Shared Free Tier Instance",
-            "description":"Setup an Always Free autonomous database instance",
-            "filename":"../../provision-free-tier-adb/provision-free-tier-adb.md"
-        },
-        {
-            "title": "Lab 3: Deploy the Graph Server & Client Marketplace Image",
-            "description":"Deploy the Graph Server & Client Marketplace image",
-            "filename":"../../deploy-image/deploy-image.md"
-        },
-        {
-            "title": "Lab 4: Create and Enable a Graph User in SQLDeveloper Web",
-            "description":"Create a user and enable SQLDeveloper Web for that user",
+            "title": "Lab 1: Create and Enable a Graph User",
+            "description":"Create and Enable a Graph User",
             "filename":"../../create-graph-user/create-graph-user.md"
         },
         {
-            "title": "Lab 5: Create and Populate Tables",
-            "description":"Create and populate tables with the Customer 360 dataset",
+            "title": "Lab 2: Create and Populate Tables",
+            "description":"Create and Populate Tables",
             "filename":"../../create-and-populate-tables/create-and-populate-tables.md"
         },
         {
-            "title": "Lab 6: Create the Graph",
-            "description":"Create the Customer 360 graph",
+            "title": "Lab 3: Create the Graph",
+            "description":"Create the Graph",
             "filename":"../../create-graph/create-graph.md"
         },
         {
-            "title": "Lab 7: Graph Query and Analysis with JShell",
-            "description":"Graph Query and Analysis with JShell on the Free Tier compute",
+            "title": "Lab 4: Query and Analyze the Graphs",
+            "description":"Query and Analyze the Graphs",
             "filename":"../../query-and-analyze-graphs/query-and-analyze-graphs.md"
         },
         {
-            "title": "Lab 8: Graph Visualization",
-            "description":"Graph Query and Visualization of the Customer 360 data on the Free Tier compute",
+            "title": "Lab 5: Graph Visualization",
+            "description":"Graph Visualization",
             "filename":"../../visualize-graphs/visualize-graphs.md"
         },
         {
